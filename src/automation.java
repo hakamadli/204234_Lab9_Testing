@@ -39,7 +39,7 @@ public class automation {
         MobileElement el7 = (MobileElement) androidDriver.findElementByAccessibilityId("equals");
         el7.click();
 
-        Assert.assertEquals(androidDriver.findElementById("com.google.android.calculator:id/result_final").getText(), "70");
+        Assert.assertEquals(androidDriver.findElementById("com.google.android.calculator:id/result_final").getText(), "67");
 
     }
 }
